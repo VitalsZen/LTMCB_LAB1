@@ -56,7 +56,7 @@ namespace Lab1
             cb1_Theater.Name = "cb1_Theater";
             cb1_Theater.Size = new Size(237, 28);
             cb1_Theater.TabIndex = 0;
-            cb1_Theater.SelectionChangeCommitted += cb1_Movie_SelectionChangeCommitted;
+            cb1_Theater.SelectionChangeCommitted += cb1_Theater_SelectionChangeCommitted;
             // 
             // clb1_Seats
             // 

@@ -25,6 +25,7 @@ namespace Lab1
 
         static int check = 0;
         static double cost = 0;
+        static string phong = "";
         public Lab01_Bai04()
         {
             InitializeComponent();
@@ -83,21 +84,22 @@ namespace Lab1
                 }
                 MessageBox.Show("Chọn phòng chiếu và chỗ ngồi");
                 cb1_Theater.Enabled = true;
+                cb1_Theater.Text = "";
             }
             else
                 check = 0;
         }
 
-        private void cb1_Movie_SelectionChangeCommitted(Object sender, EventArgs e)
+        private void cb1_Theater_SelectionChangeCommitted(Object sender, EventArgs e)
         {
             clb1_Seats.Items.Clear();
             string s = cb1_Theater.SelectedItem.ToString();
-            cb1_Theater.Text = "";
             bool ck = true;
             HashSet<string> set = new HashSet<string> { };
             if (check == 1) // xét csdl hiện có và hiện những seats hiện có trong csdl
             {
                 ck = Mai.TryGetValue(s, out set);
+                temp = set;
                 if (set != null)
                 {
                     foreach (string c in set)
@@ -110,6 +112,7 @@ namespace Lab1
             else if (check == 2)
             {
                 ck = DPP.TryGetValue(s, out set);
+                temp = set;
                 if (set != null)
                 {
                     foreach (string c in set)
@@ -122,6 +125,7 @@ namespace Lab1
             else if (check == 3)
             {
                 ck = GLCB.TryGetValue(s, out set);
+                temp = set;
                 if (set != null)
                 {
                     foreach (string c in set)
@@ -134,6 +138,7 @@ namespace Lab1
             else if (check == 4)
             {
                 ck = Tarot.TryGetValue(s, out set);
+                temp = set;
                 if (set != null)
                 {
                     foreach (string c in set)
@@ -198,37 +203,40 @@ namespace Lab1
             else
             {
                 MessageBox.Show("Bạn đã đặt vé thành công.", "Congratulations", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                // xóa các seats đã check trong csdl ( không biết truy cập hashset bên trong dictionary nên xóa bộ csdl hiện thời và cài vào một hashset mới )
+                // xóa các seats đã check trong csdl
+                phong = cb1_Theater.SelectedItem.ToString();
                 foreach (string c in clb1_Seats.CheckedItems)
                 {
                     temp.Remove(c);
                 }
                 clb1_Seats.Items.Clear();
+
                 if (check == 1)
                 {
-                    Mai.Remove(cb1_Theater.Text);
-                    Mai.Add(cb1_Theater.Text, temp);
+                    Mai.Remove(phong);
+                    Mai.Add(phong, temp);
                 }
                 else if (check == 2)
                 {
-                    DPP.Remove(cb1_Theater.Text);
-                    DPP.Add(cb1_Theater.Text, temp);
+                    DPP.Remove(phong);
+                    DPP.Add(phong, temp);
                 }
                 else if (check == 3)
                 {
-                    GLCB.Remove(cb1_Theater.Text);
-                    GLCB.Add(cb1_Theater.Text, temp);
+                    GLCB.Remove(phong);
+                    GLCB.Add(phong, temp);
                 }
                 else
                 {
-                    Tarot.Remove(cb1_Theater.Text);
-                    Tarot.Add(cb1_Theater.Text, temp);
+                    Tarot.Remove(phong);
+                    Tarot.Add(phong, temp);
                 }
                 // blank các ô -> đẹp
                 tb1_Name.Text = "";
                 tb2_Cost.Text = "";
                 cb2_Movie.Text = "";
                 cb1_Theater.Text = "";
+                cb1_Theater.Enabled = false;
             }
 
         }
@@ -239,6 +247,7 @@ namespace Lab1
             tb2_Cost.Text = "";
             cb2_Movie.Text = "";
             cb1_Theater.Text = "";
+            cb1_Theater.Enabled = false;
         }
 
         private void bt3_Exit_Click(object sender, EventArgs e)

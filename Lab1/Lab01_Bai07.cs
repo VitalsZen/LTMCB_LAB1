@@ -27,15 +27,15 @@ namespace Lab1
         {
             // Name + Score
             bool ck = false;
-            string specialChar = @"\|!#$%&/()=?»«@£§€{}.-;'<>_,""0123456789^/+-*:][";
+            string specialChar = @"\|!#$%&/()=?»«@£§€{}.-;'<>_,""0123456789^/+-*:]["; // loại special char trong nhập tên
             foreach (char c in specialChar) // check char đặc biệt 
             {
                 if (substrings[0].Contains(c) == false)
                     continue;
                 MessageBox.Show("Nhap sai format", "Warning");
-                tb2_Name.Text = "a";
                 tb1_Input.Text = "";
                 tb3_Score.Text = "";
+                tb2_Name.Text = "";
                 return;
             }
             tb2_Name.Text = substrings[0].Trim();
@@ -43,9 +43,9 @@ namespace Lab1
             if ((ck) || (substrings.Length < 2)) // check khi thieu ten/ chi ghi ten 
             {
                 MessageBox.Show("Nhap sai format", "Warning");
-                tb2_Name.Text = "b";
                 tb1_Input.Text = "";
                 tb3_Score.Text = "";
+                tb2_Name.Text = "";
                 return;
             }
             double DTB = 0;
@@ -59,9 +59,9 @@ namespace Lab1
                 if (!ck || result < 0 || result > 10)
                 {
                     MessageBox.Show("Nhap sai format", "Warning");
-                    tb2_Name.Text = "21";
                     tb1_Input.Text = "";
                     tb3_Score.Text = "";
+                    tb2_Name.Text = "";
                     return;
                 }
                 tb3_Score.Text += "Môn " + i.ToString() + ": " + result.ToString().Trim() + "   ";

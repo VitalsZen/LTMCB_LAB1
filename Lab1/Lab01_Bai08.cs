@@ -13,27 +13,31 @@ namespace Lab1
 {
     public partial class Lab01_Bai08 : Form
     {
+        static string s = "Bún bò,Phở,Bún đậu";
         public Lab01_Bai08()
         {
             InitializeComponent();
+            foreach (string chuoi in s.Split(','))
+            {
+                tb2_List.Text += chuoi.Trim();
+                tb2_List.AppendText(Environment.NewLine);
+            }
         }
-        List<string> list = new List<string>();
-
         private void bt1_Add_Click(object sender, EventArgs e)
         {
             tb2_List.Text += tb1_Input.Text;
             tb2_List.AppendText(Environment.NewLine);
-            list.Add(tb1_Input.Text);
+            s = s.Insert(s.Length, "," + tb2_List.Text.Trim());
         }
 
         private void bt2_FindRandom_Click(object sender, EventArgs e)
-        {
-            tb3_Output.Text = list[RandomNumberGenerator.GetInt32(0, list.Count)];
+        { 
+            tb3_Output.Text = s.Split(',').GetValue(RandomNumberGenerator.GetInt32(0, s.Split(',').Length)).ToString(); 
         }
 
         private void bt3_Reset_Click(object sender, EventArgs e)
         {
-            list.Clear();
+            s = "Bún bò,Phở,Bún đậu";
             tb2_List.Text = "";
             tb1_Input.Clear();
             tb3_Output.Text = "";

@@ -24,3 +24,30 @@ C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuc hanh\Lab1\La
 C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuc hanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.Lab01_Bai06.resources
 C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuc hanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.Lab01_Bai07.resources
 C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuc hanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.Lab01_Bai08.resources
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\bin\Debug\net8.0-windows\Lab1.exe
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\bin\Debug\net8.0-windows\Lab1.deps.json
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\bin\Debug\net8.0-windows\Lab1.runtimeconfig.json
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\bin\Debug\net8.0-windows\Lab1.dll
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\bin\Debug\net8.0-windows\Lab1.pdb
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.Lab01.resources
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.Lab01_Bai01.resources
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.Lab01_Bai02.resources
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.Lab01_Bai03.resources
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.Lab01_Bai03_1.resources
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.Lab01_Bai04.resources
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.Lab01_Bai05.resources
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.Lab01_Bai06.resources
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.Lab01_Bai07.resources
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.Lab01_Bai08.resources
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.Properties.Resources.resources
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.csproj.GenerateResource.cache
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.AssemblyInfoInputs.cache
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.AssemblyInfo.cs
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.sourcelink.json
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.dll
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\refint\Lab1.dll
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.pdb
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\Lab1.genruntimeconfig.cache
+C:\Users\ACER\OneDrive\Computer\UIT\HK4\Lap trinh mang can ban\Thuchanh\Lab1\Lab1\Lab1\obj\Debug\net8.0-windows\ref\Lab1.dll

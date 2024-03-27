@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\OneDrive\\Computer\\UIT\\HK4\\Lap trinh mang can ban\\Thuc hanh\\Lab1\\Lab1\\Lab1\\Lab1.csproj": {}
+    "C:\\Users\\ACER\\OneDrive\\Computer\\UIT\\HK4\\Lap trinh mang can ban\\Thuchanh\\Lab1\\Lab1\\Lab1\\Lab1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\OneDrive\\Computer\\UIT\\HK4\\Lap trinh mang can ban\\Thuc hanh\\Lab1\\Lab1\\Lab1\\Lab1.csproj": {
+    "C:\\Users\\ACER\\OneDrive\\Computer\\UIT\\HK4\\Lap trinh mang can ban\\Thuchanh\\Lab1\\Lab1\\Lab1\\Lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\OneDrive\\Computer\\UIT\\HK4\\Lap trinh mang can ban\\Thuc hanh\\Lab1\\Lab1\\Lab1\\Lab1.csproj",
+        "projectUniqueName": "C:\\Users\\ACER\\OneDrive\\Computer\\UIT\\HK4\\Lap trinh mang can ban\\Thuchanh\\Lab1\\Lab1\\Lab1\\Lab1.csproj",
         "projectName": "Lab1",
-        "projectPath": "C:\\Users\\ACER\\OneDrive\\Computer\\UIT\\HK4\\Lap trinh mang can ban\\Thuc hanh\\Lab1\\Lab1\\Lab1\\Lab1.csproj",
+        "projectPath": "C:\\Users\\ACER\\OneDrive\\Computer\\UIT\\HK4\\Lap trinh mang can ban\\Thuchanh\\Lab1\\Lab1\\Lab1\\Lab1.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\OneDrive\\Computer\\UIT\\HK4\\Lap trinh mang can ban\\Thuc hanh\\Lab1\\Lab1\\Lab1\\obj\\",
+        "outputPath": "C:\\Users\\ACER\\OneDrive\\Computer\\UIT\\HK4\\Lap trinh mang can ban\\Thuchanh\\Lab1\\Lab1\\Lab1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",

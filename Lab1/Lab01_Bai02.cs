@@ -40,38 +40,45 @@ namespace Lab1
 
         private void tb1_S1_TextChanged(object sender, EventArgs e)
         {
-            if (tb1_S1.Text == " ")
+            string s = tb1_S1.Text.Trim(); // ignore whitespace
+            if (s.Length == 0)
                 return;
-            string s = tb1_S1.Text;
             bool ck = false;
-            ck = double.TryParse(s, out double result);
-            if ((!ck) && (tb1_S1.Text != "-") && (tb1_S1.Text != "") )
+            ck = int.TryParse(s, out int result);
+            if ((!ck) && (s != "-") && (s != ""))
             {
-                MessageBox.Show("Xin mời nhập số bất kì!!!");
+                MessageBox.Show("Xin mời nhập số nguyên!!!");
+                tb1_S1.Text = "";
                 return;
             }
         }
 
         private void tb2_S2_TextChanged(object sender, EventArgs e)
         {
-            string s = tb2_S2.Text;
+            string s =tb2_S2.Text.Trim(); // ignore whitespace
+            if (s.Length == 0)
+                return;
             bool ck = false;
-            ck = double.TryParse(s, out double result);
-            if ((!ck) && (tb2_S2.Text != "-") && (tb2_S2.Text != ""))
+            ck = int.TryParse(s, out int result);
+            if ((!ck) && (s != "-") && (s != ""))
             {
-                MessageBox.Show("Xin mời nhập số bất kì!!!");
+                MessageBox.Show("Xin mời nhập số nguyên!!!");
+               tb2_S2.Text = "";
                 return;
             }
         }
 
         private void tb3_S3_TextChanged(object sender, EventArgs e)
         {
-            string s = tb2_S2.Text;
+            string s = tb3_S3.Text.Trim(); // ignore whitespace
+            if (s.Length == 0)
+                return;
             bool ck = false;
-            ck = double.TryParse(s, out double result);
-            if ((!ck) && (tb3_S3.Text != "-") && (tb3_S3.Text != ""))
+            ck = int.TryParse(s, out int result);
+            if ((!ck) && (s != "-") && (s != ""))
             {
-                MessageBox.Show("Xin mời nhập số bất kì!!!");
+                MessageBox.Show("Xin mời nhập số nguyên!!!");
+                tb3_S3.Text = "";
                 return;
             }
         }
